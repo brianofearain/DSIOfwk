@@ -1,5 +1,5 @@
 {
-  "name": "DatasnapSDK",
+  "name": "dsiofwk",
   "version": "0.0.1",
   "summary": "iOS library for Datasnap",
   "homepage": "http://datasnap.io",
@@ -13,7 +13,6 @@
     "git": "https://github.com/brianofearain/DSIOfwk.git",
     "tag": "0.0.1"
   },
-  "source_files": "DatasnapSDK/Headers/*.h",
   "preserve_paths": "dsiofwk.framework",
   "source_files": "dsiofwk.framework/**/*.h",
   "resources": [
