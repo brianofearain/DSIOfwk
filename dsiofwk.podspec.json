@@ -1,0 +1,38 @@
+{
+  "name": "DatasnapSDK",
+  "version": "0.0.1",
+  "summary": "iOS library for Datasnap",
+  "homepage": "http://datasnap.io",
+  "authors": {
+    "Datasnap, Inc": "contact@datasnap.io"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/brianofearain/DSIOfwk.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "DatasnapSDK/Headers/*.h",
+  "preserve_paths": "dsiofwk.framework",
+  "source_files": "dsiofwk.framework/**/*.h",
+  "resources": [
+    "dsiofwk.framework/Versions/A/Resources/*"
+  ],
+  "frameworks": [
+    "dsiofwk",
+    "UIKit",
+    "Foundation",
+    "SystemConfiguration",
+    "MobileCoreServices",
+    "CoreLocation"
+  ],
+    "libraries": [
+    "sqlite3"
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC",
+    "FRAMEWORK_SEARCH_PATHS": "\"$(PODS_ROOT)/Analytics\""
+  },
+  "requires_arc": false
+}
